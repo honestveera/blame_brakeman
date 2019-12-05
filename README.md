@@ -43,8 +43,8 @@ Using Bundler:
 
 # Conditions
 
-1. If Yesterday, security_file not there. It will generate today's security_file `security_MMDDYYYY.json`
-2. If Yesterday, security_file not there. It will compare Yesterdays file and Todays file. It will give a output like 
+1. If Yesterday, security_file is not there. It will generate today's security_file `security_MMDDYYYY.json`
+2. If Yesterday, security_file is there. It will compare Yesterdays file and Todays file. It will give a output like 
    `security_comparison_YESTERDAY(MMDDYYYY)_to_TODAY(MMDDYYYY).json`
 3. Sample Output:
 
