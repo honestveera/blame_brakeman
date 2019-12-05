@@ -13,7 +13,7 @@ class BrakemanSecurity
     FileUtils.mkdir_p 'brakeman'
     root_folder = "brakeman"
     time_now = Time.now
-    time_yesterday = time_now.yesterday
+    time_yesterday = time_now - 86400 #1 Day Ago
     brakeman_file_format = "security_#{time_format(time_yesterday)}.json"
     comparison_file_format = "security_comparison_#{time_format(time_yesterday)}_to_#{time_format(time_now)}.json"
     format = %w[json html]
