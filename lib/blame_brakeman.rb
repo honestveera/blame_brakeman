@@ -11,7 +11,7 @@ class BrakemanSecurity
   
   def brakeman_security
     FileUtils.mkdir_p 'brakeman'
-    root_folder = "#{Rails.root}/brakeman"
+    root_folder = "brakeman"
     time_now = Time.now
     time_yesterday = time_now.yesterday
     brakeman_file_format = "security_#{time_format(time_yesterday)}.json"
