@@ -41,6 +41,10 @@ Using Bundler:
      
 5. After, You will get a security_warning file under `root_directory/brakeman`. 
 
+6. OutputFolder Structure
+
+![Folder Structure](folder_structure.png)
+
 # Conditions
 
 1. If Yesterday, security_file is not there. It will generate today's security_file `security_MMDDYYYY.json`
